@@ -1,0 +1,39 @@
+package perguntas;
+
+import java.io.Serializable;
+import java.util.List;
+
+public class Question implements Serializable {
+    private static final long serialVersionUID = 1L;
+
+
+    private String question;
+    private int points;
+    private int correct;
+    private List<String> options;
+
+
+    public String getQuestion() {
+        return question;
+    }
+
+    public int getPoints() {
+        return points;
+    }
+
+    public int getCorrect() {
+        return correct;
+    }
+
+    public List<String> getOptions() {
+        return options;
+    }
+
+    @Override
+    public String toString() {
+        return "Pergunta='" + question + '\'' +
+                ", pontos=" + points +
+                ", correta=" + correct +
+                ", opções=" + options ;
+    }
+}
