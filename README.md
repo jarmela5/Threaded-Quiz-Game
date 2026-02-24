@@ -29,8 +29,38 @@ src/
 ├── TUI_servidor/ # Text-based interface (Console) for server monitoring
 └── perguntas/ # Module for loading and managing the quiz database
 ```
+
+## How to Play
+
+To run the project, you need to start the Server first and then connect the Clients.
+
+### 1. Start the Server
+Run the server application to manage connections and rooms:
+
+```bash
+java MainServer.java
+```
+- Follow the instructions shown in the TUI (Text User Interface).
+- Use the TUI to create and manage game rooms (salas).
+
+### 2. Start the Clients
+For each player, run the client application:
+```bash
+java ClienteEntrada.java localhost 8008 idSala idTeam idPlayer
+```
+Arguments explanation:
+- localhost – Server address
+- 8008 – Server port
+- idSala – Game room ID
+- idTeam – Team ID
+- idPlayer – Player ID
+
+Each client will connect to the server and participate in the quiz in real time.
+
+
 ## Authors
 
 - José Jarmela (122663)
 
 - João Daniel (122670)
+
