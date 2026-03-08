@@ -60,7 +60,8 @@ Each client will connect to the server and participate in the quiz in real time.
 
 ## Authors
 
-- José Jarmela (122663)
+- José Jarmela 
 
-- João Daniel (122670)
+- João Daniel 
+
 
