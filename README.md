@@ -16,7 +16,6 @@ A real-time multiplayer quiz game system where teams compete to answer questions
 - **Java 17**
 - **Maven** for dependency management
 - **Gson** for JSON parsing
-- **Custom Thread Pool** for connection management
 
 ## Project Structure
 
@@ -63,5 +62,6 @@ Each client will connect to the server and participate in the quiz in real time.
 - José Jarmela 
 
 - João Daniel 
+
 
 
